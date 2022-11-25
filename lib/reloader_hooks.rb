@@ -26,6 +26,4 @@ module ReloaderHooks
       @initialized.present?
     end
   end
-
-  register(&method(:initialized!))
 end
